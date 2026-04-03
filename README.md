@@ -32,3 +32,4 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 ・Google Colaboratory (Development Environment)
 
 新機能：減価償却スケジュールの自動生成
+新機能：月次償却スケジュールの生成ロジックを追加
