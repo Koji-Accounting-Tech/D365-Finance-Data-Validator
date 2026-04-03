@@ -30,3 +30,5 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 ・Python 3.x
 ・Pandas (Data Analysis Library)
 ・Google Colaboratory (Development Environment)
+
+新機能：減価償却スケジュールの自動生成
