@@ -21,6 +21,13 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 ・必須項目バリデーション (Mandatory Field Check): 勘定科目コードなどの未入力（欠損値）を特定します。
 ・二重入力防止 (Double-Entry Detection): 同一行内の借方・貸方両方への重複入力を検知します。
 ・データクレンジング (Data Cleansing): 列名やデータ内の不要な空白（スペース）を自動除去し、インポートエラーを未然に防ぎます。
+追加新機能 / Adding features
+・減価償却スケジュールの自動生成
+・月次償却スケジュールの生成ロジックを追加
+・銀行勘定照合ロジックを追加
+・為替損益の計算を追加
+・税務ロジックの実装
+・外貨差損益
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
@@ -31,13 +38,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 ・Pandas (Data Analysis Library)
 ・Google Colaboratory (Development Environment)
 
-新機能：不正データ検知（データバリデーション）ロジックの実装
-新機能：減価償却スケジュールの自動生成
-新機能：月次償却スケジュールの生成ロジックを追加
-新機能：銀行勘定照合ロジックを追加
-新機能：為替損益の計算を追加
-新機能：税務ロジックの実装
-新機能：外貨差損益
+新機能　/ Adding Function
 - **銀行勘定照合ロジック (Bank Reconciliation Logic):** 銀行明細データと内部元帳データを「日付・金額」の複数条件で突合し、未照合（アンマッチ）な仕訳を自動抽出します。
 - **日付のズレの許容 Fuzzy Matching）:** 照合時のロジックを実装しました。
 - **外貨差損益 （Exchange Gain/Loss）:** 外貨差損益に対するチェックを行うロジックを実装しました。
