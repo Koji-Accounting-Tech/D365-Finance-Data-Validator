@@ -21,6 +21,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 ・必須項目バリデーション (Mandatory Field Check): 勘定科目コードなどの未入力（欠損値）を特定します。
 ・二重入力防止 (Double-Entry Detection): 同一行内の借方・貸方両方への重複入力を検知します。
 ・データクレンジング (Data Cleansing): 列名やデータ内の不要な空白（スペース）を自動除去し、インポートエラーを未然に防ぎます。
+
 追加新機能 / Adding features
 ・減価償却スケジュールの自動生成
 ・月次償却スケジュールの生成ロジックを追加
