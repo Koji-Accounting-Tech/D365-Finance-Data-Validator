@@ -31,6 +31,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・外貨差損益
 - ・連結会計・内部取引消去の自動化シミュレーションを追加
 - ・予算対実績分析（予実管理）と異常検知ロジックを追加
+- ・Added Data Visualization (Budget vs Actual) using Matplotlib
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
