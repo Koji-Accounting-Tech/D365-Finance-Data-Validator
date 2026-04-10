@@ -34,6 +34,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・Added Data Visualization (Budget vs Actual) using Matplotlib
 - ・Added Duplicate Transaction Detection for Audit Data Integrity
 - ・Implemented Audit Log Monitoring for Weekend and Late-night Transactions
+- ・Implemented Burst Detection for Monitoring Abnormal System Usage
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
