@@ -37,6 +37,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・Implemented Burst Detection for Monitoring Abnormal System Usage
 - ・Added Visualization for User Transaction Burst Peaks
 - ・Added Time-Series Trend Analysis for Daily Transaction Volumes
+- ・Implemented Master Data Integrity Check (Orphaned Record Detection)
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
