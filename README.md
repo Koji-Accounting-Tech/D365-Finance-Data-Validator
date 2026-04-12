@@ -40,6 +40,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・Implemented Master Data Integrity Check (Orphaned Record Detection)
 - ・Implemented Master Data Consistency Check (Detecting multi-name mapping per ID)
 - ・Implemented Master Data Validation with Business Rule Checks
+- ・Added Data Format Validation (Length, Numeric check, and Prefix rules)
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
