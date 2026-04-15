@@ -45,6 +45,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・Added Excel Export functionality for easy sharing of validation results
 - ・Developed a Master Data Comparison (Diff) and Cleansing tool for system migration
 - ・Enhanced Number Sequence Integrity check with Gap detection and formatting
+- ・Developed a Text Sanitization tool to remove/replace invalid characters for D365 imports
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
