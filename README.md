@@ -50,6 +50,7 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - ・Added Incident Analysis tools: Transaction Spike Detection and Error Pattern Analysis
 - ・Improved log parsing logic to handle keyword variations (e.g., 'timeout' vs 'timed out')
 - ・Added Pie Chart visualization for Error Category Distribution
+- 
 
 開発の背景 / Background
 前回の面接において、Dynamics 365 の製品知識（MB-310保持）に加え、実装現場での技術的理解（Python/C#等）の重要性を再認識いたしました。
@@ -70,3 +71,4 @@ Microsoft Dynamics 365 Finance & Operations (D365 F&O) へのデータ移行（D
 - **しきい値の可視化（Threshold Visualization) :** 単なるグラフ化にとどまらず、アラートの閾値を視覚的に示すことで、迅速な意思決定（エスカレーション）を支援する設計にしました。
 - **文字変換（Handling Character Normalization Logic) :** 半角カタカナが正規化プロセス（NFKC）を経て全角へと変換される特性を考慮し、マッピング辞書を最適化することで、名寄せの精度を 100% に高めました。
 - **形式が根本的に異なるデータ間の名寄せ（Legacy Data Transformation) :** 旧システム特有の『半角カナ』と新システムの『漢字名称』という、形式が根本的に異なるデータ間の名寄せを自動化しました。
+- **Refactored date handling to be dynamic using datetime library
